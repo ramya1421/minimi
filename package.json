@@ -1,0 +1,33 @@
+{
+  "name": "web-search-agent",
+  "version": "1.0.0",
+  "description": "A web search chat agent",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "ts-node --project tsconfig.json src/server.ts",
+    "build": "tsc",
+    "eval": "ts-node --project tsconfig.json eval/run.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.8.0",
+    "better-sqlite3": "^11.0.0",
+    "chrono-node": "^2.10.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.6.1",
+    "express": "^4.19.0",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.0",
+    "@types/cookie-parser": "^1.4.8",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.0.0",
+    "@types/uuid": "^10.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
